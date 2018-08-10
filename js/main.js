@@ -17,7 +17,7 @@ btn.addEventListener("click", function() {
 //Função que abstrai a api
 function loadapi(e) {
   const pesquisa = e;
-  const url = `http://www.omdbapi.com/?s=${pesquisa}&apikey=312efa61`;
+  const url = `https://www.omdbapi.com/?s=${pesquisa}&apikey=312efa61`;
   fetch(url)
     .then(res => res.json())
     .then(json => {
