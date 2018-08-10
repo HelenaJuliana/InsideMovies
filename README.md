@@ -1,4 +1,4 @@
-# Movies
+# InsideMovies
 
 ## Descrição
 Aplicação web utilizando a API da OMDB que permite ao usuário fazer a pesquisa de títulos, retornando seu tipo (filme ou série) e o ano de lançamento.
