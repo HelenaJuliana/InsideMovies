@@ -14,6 +14,11 @@ Aplicação criada para os amantes da sétima arte. O Objetivo é de que seja um
 ## Recursos da API
 Foi utilizado a API da OMDB para as requisições.
 
- ### Bibliotecas
+### Bibliotecas
  - Bootstrap 4.1.3
  - JQuery 3.3.1
+ 
+### Screenshots da Tela
+![alt text](https://github.com/HelenaJuliana/JS/blob/master/imagens/tela1.JPG)
+
+![alt text](https://github.com/HelenaJuliana/JS/blob/master/imagens/tela2.JPG)
