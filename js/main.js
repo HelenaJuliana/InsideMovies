@@ -7,11 +7,14 @@ const span2 = document.querySelector(".span2");
 const email = document.querySelector("#email");
 const fone = document.querySelector("#telefone");
 
+//O evento do click
 btn.addEventListener("click", function() {
   console.log("Clicou!");
   let pesquisa = text.value;
   loadapi(pesquisa);
 });
+
+//Função que abstrai a api
 function loadapi(e) {
   const pesquisa = e;
   const url = `http://www.omdbapi.com/?s=${pesquisa}&apikey=312efa61`;
@@ -44,6 +47,7 @@ function loadapi(e) {
     });
 }
 
+//Funão para validação do Regex
 function validarnome(x) {
   var regex = /^[A-Z]{1}[a-z]+\s[A-Z][a-z]+(\s[A-Z][a-z]+)*$/;
   var nome = document.getElementById("nome").value;

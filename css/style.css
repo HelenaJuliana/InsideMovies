@@ -1,10 +1,128 @@
-h1 {
-  text-align: center;
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(../font/Open-Sans.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Roboto Black"), local("Roboto-Black"),
+    url(../font/Roboto-Black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* HEADER */
+
+.header-movie h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5em;
+  margin: 0;
+}
+
+.header-movie p {
+  font-size: 2em;
+  font-style: italic;
 }
 
 .span {
-  color: red;
+  color: rgb(252, 5, 5);
 }
 .span2 {
-  color: red;
+  color: rgb(252, 5, 5);
+}
+
+/* PESQUISA */
+
+.busca {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+}
+
+.busca input {
+  color: rgb(0, 0, 0);
+  border-radius: 2px;
+  border: 2px solid rgb(71, 74, 77);
+  outline: none;
+}
+
+.busca input:focus {
+  color: rgb(71, 74, 77);
+}
+
+.btn {
+  color: rgb(71, 74, 77);
+}
+
+/* FORMULÁRIO */
+
+/* INFO */
+
+.info-clientes {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info input {
+  color: rgb(0, 0, 0);
+  border-radius: 2px;
+  border: 2px solid rgb(71, 74, 77);
+  outline: none;
+}
+
+.info input:focus {
+  color: rgb(71, 74, 77);
+}
+
+/* NAVEGAÇÃO */
+
+.nav {
+  margin-top: 15px;
+  background: #fff; /* onde se encontra a navegação do site */
+  border-radius: 0.3em;
+}
+.nav li {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid black; /* barras da navegação */
+}
+.nav li a {
+  color: #000;
+  font-size: 15px;
+  display: block;
+  padding: 10px 25px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.nav li a:hover {
+  color: #fff;
+  background: #2d2d2d; /* cor que fica quando passa o mouse no link */
+}
+.content {
+  margin: 0 auto;
+}
+.slide-box {
+  margin: 10px auto 30px auto;
+  width: 990px;
+  height: 300px;
 }
